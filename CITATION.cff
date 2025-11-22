@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you reference the OSTP (ORBITGW's Secure Transfer Protocol) Specification in your work, please use this metadata."
+authors:
+- family-names: "Cheng"
+  given-names: "Chris"
+  alias-names: "orbitgw"
+  orcid: "https://orcid.org/0009-0003-7361-3377"
+title: "OSTP (ORBITGW's Secure Transfer Protocol) Specification"
+version: 0.1.0
+url: "ostp.orbitgw.com"
+repository-code: "https://github.com/orbitgw/ostp"
+license: "CC-BY-SA-4.0"
