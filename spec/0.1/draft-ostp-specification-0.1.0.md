@@ -1,9 +1,9 @@
 ---
-title: OSTP (ORBITGW's Secure Transfer Protocol) Specification Version 0.1 -- Draft (Patch 0)
-author: orbitgw
-version: 0.1.0
-copyright: Copyright (c) 2025 orbitgw <orbitgw@foxmail.com>
-license: [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+title: "OSTP (ORBITGW's Secure Transfer Protocol) Specification Version 0.1 -- Draft (Patch 0)"
+author: "orbitgw"
+version: "0.1.0"
+copyright: "Copyright (c) 2025 orbitgw <orbitgw@foxmail.com>"
+license: "[CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
 ---
 
 # OSTP (ORBITGW's Secure Transfer Protocol) Specification Version 0.1 -- Draft (Patch 0)
