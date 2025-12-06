@@ -1,12 +1,13 @@
 ---
-title: "OSTP (ORBITGW's Secure Transfer Protocol) Specification Version 0.1 -- Draft (Patch 0)"
+title: "OSTP (ORBITGW's Secure Transfer Protocol) Specification Version 0.1"
 author: "orbitgw"
-version: "0.1.0"
+version: "0.1.1"
+origin_publish_timestamp: "1764522431"
 copyright: "Copyright (c) 2025 orbitgw <orbitgw@foxmail.com>"
 license: "[CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
 ---
 
-# OSTP (ORBITGW's Secure Transfer Protocol) Specification Version 0.1 -- Draft (Patch 0)
+# OSTP (ORBITGW's Secure Transfer Protocol) Specification Version 0.1
 
 ## Abstract
 
@@ -17,7 +18,7 @@ This document specifies OSTP (ORBITGW's Secure Transfer Protocol), a secure tran
 This document specifies an experimental protocol for the community. It does not specify an Internet standard.
 
 ## Table of Contents
-- [OSTP (ORBITGW's Secure Transfer Protocol) Specification Version 0.1 -- Draft (Patch 0)](#ostp-orbitgws-secure-transfer-protocol-specification-version-01----draft-patch-0)
+- [OSTP (ORBITGW's Secure Transfer Protocol) Specification Version 0.1](#ostp-orbitgws-secure-transfer-protocol-specification-version-01)
   - [Abstract](#abstract)
   - [Status of This Memo](#status-of-this-memo)
   - [Table of Contents](#table-of-contents)
@@ -61,8 +62,8 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 The following table defines the key terms used in this specification:
 
-| Term | Acronym | Description |
-|------|---------|-------------|
+| Term | Acronym |     Description |
+|:------|:---------|:-------------|
 | Pre-shared Secret Key | PSK | A 32-byte symmetric key shared between client and server through secure means prior to communication. The PSK MUST NOT be transmitted over the network and MUST NOT be used directly for encrypting plaintext. |
 | Client Random Code | CRC | A randomly generated code by the client. MAY be transmitted in cleartext. |
 | Server Random Code | SRC | A randomly generated code by the server. MAY be transmitted in cleartext. |
