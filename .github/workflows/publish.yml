@@ -1,0 +1,16 @@
+name: Trigger OSTP Site Building Workflow
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger workflow
+        run: |
+          curl -X POST \
+          -H "Accept: application/vnd.github+json" \
+          -H "Authorization: Bearer ${{ secrets.PAT }}" \
+          https://api.github.com/repos/orbitgw/OSTP-frame/dispatches \
+          -d '{"event_type":"trigger-workflow", "client_payload": {"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}}'
