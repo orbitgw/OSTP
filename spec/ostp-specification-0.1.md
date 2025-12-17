@@ -1,7 +1,7 @@
 ---
 title: "OSTP (ORBITGW's Secure Transfer Protocol) Specification Version 0.1"
 author: "orbitgw"
-version: "0.1.1"
+version: "0.1.2"
 origin_publish_timestamp: "1764522431"
 copyright: "Copyright (c) 2025 orbitgw <orbitgw@foxmail.com>"
 license: "[CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -116,13 +116,13 @@ All encryption SHALL use AES-256-GCM with the following parameters:
 
 ```
 AES-256-GCM(plaintext, key, iv=nonce, aad='OSTP_GENERAL_AAD') 
-=> nonce + authTag + encryptedData
+=> nonce + encryptedData + authTag
 ```
 
 Where:
 - `nonce` is a randomly generated 12-byte value
-- `authTag` is the 16-byte authentication tag
 - `encryptedData` is the ciphertext
+- `authTag` is the 16-byte authentication tag
 - `aad` is set to the fixed string 'OSTP_GENERAL_AAD'
 
 ### 6.2. Client Handshake Message
